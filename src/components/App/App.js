@@ -1,26 +1,60 @@
-import React from 'react';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import {
+  HashRouter,
+  Route,
+  Redirect,
+  Link,
+  Switch,
+  NavLink,
+} from 'react-router-dom';
 
 import "./App.css";
+import Navigation from "../Navigation/Navigation"
 
-import Test from "../test/Test";
+import Manager from "../manager_app/Manager";
+import Activist from "../activist_app/Activist";
+import King from "../king_app/King";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Test />
+
+
+
+const App = () => {
+
+   
+
+  
+    return (
+
+      <HashRouter>
+        <>
+        <Navigation />
+          <Route exact path='/' component={Manager}/>
+          <Route path='/activist' component={Activist} />
+          <Route path='/king' component={King} />
+
+       
         
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
-    </div>
-  );
+        </>
+      </HashRouter>
+    )
+  
 }
+
+
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         <Manager />
+//         {/* <Partia /> */}
+//         {/* <King /> */}
+
+//       </header>
+//     </div>
+//   );
+// }
 
 export default App;

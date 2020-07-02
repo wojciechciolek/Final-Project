@@ -1,4 +1,13 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import {
+  HashRouter,
+  Route,
+  Reload,
+  Link,
+  Switch,
+  NavLink,
+} from 'react-router-dom';
 
 import Manager_column5 from "../data/manager_version/manager_column5.json";
 import Manager_column6 from "../data/manager_version/manager_column6.json";
@@ -6,7 +15,9 @@ import Manager_column7 from "../data/manager_version/manager_column7.json";
 import Manager_column8 from "../data/manager_version/manager_column8.json";
 
 
-const Test = () => {
+const Manager = () => {
+
+   
 
     const randomArrayFromManagerColumn5 = Manager_column5.sort(() => Math.random() - 0.5);
     // console.log(randomArrayFromManagerColumn5)
@@ -32,6 +43,8 @@ const Test = () => {
 
     document.addEventListener("keydown", function () {
 
+       
+
         if (sumArray.length !== 0) {
 
             let source = document.getElementById('tu');
@@ -48,7 +61,7 @@ const Test = () => {
 
         } else {
 
-            console.log("koniec dostępnego tekstu")
+                   console.log("koniec dostępnego tekstu")
 
             const randomArrayFromManagerColumn5 = Manager_column5.sort(() => Math.random() - 0.5);
             // console.log(randomArrayFromManagerColumn5)
@@ -73,11 +86,11 @@ const Test = () => {
     return (
 
         <>
-            
+    
             <div id="tu"></div>
 
         </>
     )
 }
 
-export default Test;
+export default Manager;
