@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
+
 import {
   HashRouter,
   Route,
@@ -16,45 +16,26 @@ import Manager from "../manager_app/Manager";
 import Activist from "../activist_app/Activist";
 import King from "../king_app/King";
 
-
-
-
 const App = () => {
 
-   
-
-  
-    return (
-
+  return (
+    <>
+    <p></p>
+      <button onClick={() => window.location.reload()}>Najpierw odśwież, potem pisz tekst!</button>
+      
       <HashRouter>
-        <>
-        <Navigation />
-          <Route exact path='/' component={Manager}/>
+        <> 
+          <Navigation />
+          <Route exact path='/' component={Manager} />
           <Route path='/activist' component={Activist} />
           <Route path='/king' component={King} />
-
-       
-        
         </>
       </HashRouter>
-    )
-  
+
+
+    </>
+  )
+
 }
-
-
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <Manager />
-//         {/* <Partia /> */}
-//         {/* <King /> */}
-
-//       </header>
-//     </div>
-//   );
-// }
 
 export default App;
