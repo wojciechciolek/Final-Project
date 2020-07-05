@@ -1,86 +1,55 @@
 import React from "react";
+import "./Manager.css"
 
-
-import Manager_column5 from "../data/manager_version/manager_column5.json";
-import Manager_column6 from "../data/manager_version/manager_column6.json";
-import Manager_column7 from "../data/manager_version/manager_column7.json";
-import Manager_column8 from "../data/manager_version/manager_column8.json";
+import Manager_column1 from "../data/manager_version/manager_column1.json";
+import Manager_column2 from "../data/manager_version/manager_column2.json";
+import Manager_column3 from "../data/manager_version/manager_column3.json";
+import Manager_column4 from "../data/manager_version/manager_column4.json";
 
 
 const Manager = () => {
 
-    // const [counter, setCounter] = useState(0);
-
-
-
     let sumArray = [];
 
-    const randomArrayFromManagerColumn5 = Manager_column5.sort(() => Math.random() - 0.5);
-    const randomArrayFromManagerColumn6 = Manager_column6.sort(() => Math.random() - 0.5);
-    const randomArrayFromManagerColumn7 = Manager_column7.sort(() => Math.random() - 0.5);
-    const randomArrayFromManagerColumn8 = Manager_column8.sort(() => Math.random() - 0.5);
+    const randomArrayFromManagerColumn1 = Manager_column1.sort(() => Math.random() - 0.5);
+    const randomArrayFromManagerColumn2 = Manager_column2.sort(() => Math.random() - 0.5);
+    const randomArrayFromManagerColumn3 = Manager_column3.sort(() => Math.random() - 0.5);
+    const randomArrayFromManagerColumn4 = Manager_column4.sort(() => Math.random() - 0.5);
 
     for (let j = 0; j < 10; j++) {
-        sumArray.push(randomArrayFromManagerColumn5[j], randomArrayFromManagerColumn6[j], randomArrayFromManagerColumn7[j], randomArrayFromManagerColumn8[j])
+        sumArray.push(randomArrayFromManagerColumn1[j], randomArrayFromManagerColumn2[j], randomArrayFromManagerColumn3[j], randomArrayFromManagerColumn4[j])
     }
-
     console.log("sumArray: ", sumArray)
 
-
     document.addEventListener("keydown", function () {
-        // console.log("SIE ZADZIEWA EVENT MANAGER")
 
         let counter;
 
         if (sumArray.length !== 0) {
 
             let source = document.getElementById('tu');
-
             source.innerText = source.innerText + " " + sumArray[0];
-
             sumArray = sumArray.splice(1)
-
             counter = source.innerText.length
-
-            // setCounter(source.innerText.length)
-
             console.log("counter: " + counter + " , Pozostało tekstu: " + sumArray.length)
 
         } else {
 
             console.log("koniec dostępnego tekstu")
-
-            const randomArrayFromManagerColumn5 = Manager_column5.sort(() => Math.random() - 0.5);
-            const randomArrayFromManagerColumn6 = Manager_column6.sort(() => Math.random() - 0.5);
-            const randomArrayFromManagerColumn7 = Manager_column7.sort(() => Math.random() - 0.5);
-            const randomArrayFromManagerColumn8 = Manager_column8.sort(() => Math.random() - 0.5);
+            const randomArrayFromManagerColumn1 = Manager_column1.sort(() => Math.random() - 0.5);
+            const randomArrayFromManagerColumn2 = Manager_column2.sort(() => Math.random() - 0.5);
+            const randomArrayFromManagerColumn3 = Manager_column3.sort(() => Math.random() - 0.5);
+            const randomArrayFromManagerColumn4 = Manager_column4.sort(() => Math.random() - 0.5);
 
             for (let j = 0; j < 10; j++) {
 
-                sumArray.push(randomArrayFromManagerColumn5[j], randomArrayFromManagerColumn6[j], randomArrayFromManagerColumn7[j], randomArrayFromManagerColumn8[j])
+                sumArray.push(randomArrayFromManagerColumn1[j], randomArrayFromManagerColumn2[j], randomArrayFromManagerColumn3[j], randomArrayFromManagerColumn4[j])
             }
             console.log("teraz od nowa tablica Manager", sumArray)
         }
-
-        console.log(counter)
-
-
-        
-        return counter
-
-    },
-    )
-
-
+    })
     return (
-
-        <>
-
-            {/* <h4>Licznik: {document.getElementById("tu").innerText.length}</h4> */}
-            <div id="tu"></div>
-
-        </>
+        <div className="managerText" id="tu"></div>
     )
 }
-
 export default Manager;

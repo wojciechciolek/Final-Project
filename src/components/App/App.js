@@ -3,10 +3,6 @@ import React from 'react';
 import {
   HashRouter,
   Route,
-  Redirect,
-  Link,
-  Switch,
-  NavLink,
 } from 'react-router-dom';
 
 import "./App.css";
@@ -20,22 +16,17 @@ const App = () => {
 
   return (
     <>
-    <p></p>
-      <button onClick={() => window.location.reload()}>Najpierw odśwież, potem pisz tekst!</button>
-      
+      <button className="AppReloadButton" onClick={() => window.location.reload()}></button>
       <HashRouter>
-        <> 
+        <>
           <Navigation />
           <Route exact path='/' component={Manager} />
           <Route path='/activist' component={Activist} />
           <Route path='/king' component={King} />
         </>
       </HashRouter>
-
-
     </>
   )
-
 }
 
 export default App;

@@ -1,38 +1,19 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import './Navigation.css'
 
-import {
-  HashRouter,
-  Route,
-  Reload,
-  Link,
-  Switch,
-  NavLink,
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Navigation extends Component {
 
-    
-
-    render() {
-      return (
-        <nav>
-           {/* <select>
-                <option><Link to="/">Manager</Link>Manager</option>
-                <option><Link to="/king">King</Link>King</option>
-                
-            </select> */}
-
-
-
-          <ul>
-            <li><Link to="/" >Manager</Link></li>
-            <li><Link to="/activist">Activist</Link></li>
-            <li><Link to="/king">King</Link></li>
-           
-          </ul>
-        </nav>
-      );
-    }
+  render() {
+    return (
+      <nav>
+        <button className="ToManagerButton"><Link to="/" >Manager</Link></button>
+        <button className="ToActivistButton"><Link to="/activist">Activist</Link></button>
+        <button className="ToKingButton"><Link to="/king">King</Link></button>
+      </nav>
+    );
   }
+}
 
-  export default Navigation;
+export default Navigation;

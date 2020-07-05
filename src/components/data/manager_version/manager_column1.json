@@ -1,44 +1,12 @@
-{
-    "manager_column1": [
-        {
-            "id": 1,
-            "text": "Każdy nowoczesny product manager wie, że "
-        },
-        {
-            "id": 2,
-            "text": "W czasach, w których większość ludzi posiada stały dostęp do intrenetu "
-        },
-        {
-            "id": 3,
-            "text": "Warto pamiętać, że "
-        },
-        {
-            "id": 4,
-            "text": "Z drugiej jednak strony, "
-        },
-        {
-            "id": 5,
-            "text": "Praktyka dnia codziennego dowodzi, że "
-        },
-        {
-            "id": 6,
-            "text": "Zgodnie z tym, co sygnalizowaliśmy wcześniej, "
-        },
-        {
-            "id": 7,
-            "text": "Podobnie, "
-        },
-        {
-            "id": 8,
-            "text": "Już na samym początku należy podkreślić, że "
-        },
-        {
-            "id": 9,
-            "text": "Nie wolno nam zapominać, że "
-        },
-        {
-            "id": 10,
-            "text": "Zgodnie z naszymi założeniami, "
-        }
-    ]
-}
+[
+"Każdy nowoczesny product manager wie, że ",
+"W czasach, w których większość ludzi posiada stały dostęp do intrenetu ",
+"Warto pamiętać, że ",
+"Z drugiej jednak strony, ",
+"Praktyka dnia codziennego dowodzi, że ",
+"Zgodnie z tym, co sygnalizowaliśmy wcześniej, ",
+"Podobnie, ",
+"Już na samym początku należy podkreślić, że ",
+"Nie wolno nam zapominać, że ",
+"Zgodnie z naszymi założeniami, "
+]

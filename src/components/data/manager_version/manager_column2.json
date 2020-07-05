@@ -1,44 +1,12 @@
-{
-    "manager_column2": [
-        {
-            "id": 1,
-            "text": "działanie w mediach społecznościowych "
-        },
-        {
-            "id": 2,
-            "text": "budowanie atrakcyjnej zawartości strony fanowskiej na Facebooku "
-        },
-        {
-            "id": 3,
-            "text": "konstruowanie strategii działań w obszarze social media "
-        },
-        {
-            "id": 4,
-            "text": "zaistnienie w świadomości użytkowników mediów społecznościowych "
-        },
-        {
-            "id": 5,
-            "text": "realizacja wszystkich celów założonych na początku roku "
-        },
-        {
-            "id": 6,
-            "text": "budowa dobrych relacji z współczesnymi konsumentami "
-        },
-        {
-            "id": 7,
-            "text": "dalszy rozwój kanałów dotarcia do potencjalnych konsumentów "
-        },
-        {
-            "id": 8,
-            "text": "wyodrębnienie nowych grup docelowych "
-        },
-        {
-            "id": 9,
-            "text": "obecność konsumentów w serwisach społecznościowych "
-        },
-        {
-            "id": 10,
-            "text": "aktualna struktura wewnętrzna działu marketingu "
-        }
+    [
+        "działanie w mediach społecznościowych ",
+        "budowanie atrakcyjnej zawartości strony fanowskiej na Facebooku ",
+        "konstruowanie strategii działań w obszarze social media ",
+        "zaistnienie w świadomości użytkowników mediów społecznościowych ",
+        "realizacja wszystkich celów założonych na początku roku ",
+        "budowa dobrych relacji z współczesnymi konsumentami ",
+        "dalszy rozwój kanałów dotarcia do potencjalnych konsumentów ",
+        "wyodrębnienie nowych grup docelowych ",
+        "obecność konsumentów w serwisach społecznościowych ",
+        "aktualna struktura wewnętrzna działu marketingu "
     ]
-}

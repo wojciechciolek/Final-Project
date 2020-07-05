@@ -1,44 +1,12 @@
-{
-    "manager_column3": [
-        {
-            "id": 1,
-            "text": "pociąga za sobą konieczność ciągłego wdrażania "
-        },
-        {
-            "id": 2,
-            "text": "pomaga w dotarciu do szerokich kręgów konsumentów i realizacji "
-        },
-        {
-            "id": 3,
-            "text": "wymaga niezwykłego wyczucia osoby zarządzającej komunikacją oraz "
-        },
-        {
-            "id": 4,
-            "text": "wymaga zmiany w budżetach i wprowadzania w życie "
-        },
-        {
-            "id": 5,
-            "text": "powoduje konieczność opracowania "
-        },
-        {
-            "id": 6,
-            "text": "umożliwia tworzenie "
-        },
-        {
-            "id": 7,
-            "text": "spełnia ważne zadanie we wprowadzaniu "
-        },
-        {
-            "id": 8,
-            "text": "pomaga w przygotowaniu i realizacji "
-        },
-        {
-            "id": 9,
-            "text": "daje możliwość wypróbowania "
-        },
-        {
-            "id": 10,
-            "text": "zmusza nas do przeanalizowania i wdrożenia "
-        }
-    ]
-}
+[
+    "pociąga za sobą konieczność ciągłego wdrażania ",
+    "pomaga w dotarciu do szerokich kręgów konsumentów i realizacji ",
+    "wymaga niezwykłego wyczucia osoby zarządzającej komunikacją oraz ",
+    "wymaga zmiany w budżetach i wprowadzania w życie ",
+    "powoduje konieczność opracowania ",
+    "umożliwia tworzenie ",
+    "spełnia ważne zadanie we wprowadzaniu ",
+    "pomaga w przygotowaniu i realizacji ",
+    "daje możliwość wypróbowania ",
+    "zmusza nas do przeanalizowania i wdrożenia "
+]
